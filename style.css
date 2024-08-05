@@ -1616,10 +1616,10 @@ nav button a{
     .imagewrapper1 img{
         position: relative;
         bottom: 100px;
-        width: 500px;
+        width: 450px;
         height: 500px;
         object-fit: cover;
-        right: 100px;
+        right: 60px;
     }
 
     /* section2 */
@@ -1789,7 +1789,7 @@ nav button a{
         position: relative;
         top: 40px;
         left: 20px;
-        font-size: 10px;
+        font-size: 16px;
     }
     .processwrapper p{
         position: relative;
