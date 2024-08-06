@@ -1909,12 +1909,13 @@ nav button a{
         flex-direction: column;
         margin-top: 50px;
         width: 400px;
-        height: 300px;
+        height: 100%;
         position: relative;
         right: 100px;
     }
     .pro-items1{
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 20px;
@@ -1922,12 +1923,12 @@ nav button a{
         /* background-color: red; */
     }
     .pro-items1 div{
-        width: 100px;
+        width: 300px;
         background-color: white;
     }
     .pro-items1 div h3{
         color: navy;
-        font-size: 12px;
+        font-size: 15px;
     }
     .pro-items1 div img{
         width: 100%;
@@ -1935,20 +1936,21 @@ nav button a{
     }
     .pro-items2{
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 20px;
-        width: 400px;
+        width: 300px;
         /* background-color: blue; */
     }
     .pro-items2 div{
-        width: 100px;
+        width: 300px;
         background-color: white;
     }
     .pro-items2 div h3{
         color: navy;
         margin-top: 20px;
-        font-size: 12px;
+        font-size: 15px;
     }
     .pro-items2 div img{
         width: 100%;
@@ -2416,7 +2418,7 @@ nav button a{
         flex-direction: column;
         margin-top: 50px;
         width: 350px;
-        height: 300px;
+        height: 100%;
         position: relative;
         margin-left: 10px;
     }
@@ -2429,12 +2431,12 @@ nav button a{
         /* background-color: red; */
     }
     .pro-items1 div{
-        width: 100px;
+        width: 300px;
         background-color: white;
     }
     .pro-items1 div h3{
         color: navy;
-        font-size: 12px;
+        font-size: 15px;
     }
     .pro-items1 div img{
         width: 100%;
@@ -2449,13 +2451,13 @@ nav button a{
         /* background-color: blue; */
     }
     .pro-items2 div{
-        width: 100px;
+        width: 300px;
         background-color: white;
     }
     .pro-items2 div h3{
         color: navy;
         margin-top: 20px;
-        font-size: 12px;
+        font-size: 15px;
     }
     .pro-items2 div img{
         width: 100%;
@@ -2936,9 +2938,10 @@ nav button a{
         align-items: center;
         flex-direction: column;
         margin-top: 50px;
-        width: 350px;
-        height: 300px;
-        margin-left: 0px;
+        width: 300px;
+        height: 100%;
+        margin-left: 20px;
+        /* background-color: red; */
     }
     .pro-items1{
         display: flex;
@@ -2949,12 +2952,12 @@ nav button a{
         /* background-color: red; */
     }
     .pro-items1 div{
-        width: 80px;
+        width: 250px;
         background-color: white;
     }
     .pro-items1 div h3{
         color: navy;
-        font-size: 10px;
+        font-size: 13px;
     }
     .pro-items1 div img{
         width: 100%;
@@ -2969,13 +2972,13 @@ nav button a{
         /* background-color: blue; */
     }
     .pro-items2 div{
-        width: 80px;
+        width: 250px;
         background-color: white;
     }
     .pro-items2 div h3{
         color: navy;
         margin-top: 20px;
-        font-size: 10px;
+        font-size: 13px;
     }
     .pro-items2 div img{
         width: 100%;
