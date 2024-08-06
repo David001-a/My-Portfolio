@@ -7,6 +7,10 @@
 body{
     background-color: rgb(241, 242, 244);
 }
+.all{
+    width: 100%;
+    overflow: hidden;
+}
 
 /* nav */
 
@@ -20,6 +24,12 @@ nav{
     border-radius: 15px;
     position: relative;
     top: 20px;
+    animation-name: nav;
+    animation-duration: 1s;
+}
+@keyframes nav{
+    from {scale: .5; opacity: 0;}
+    to {scale: 1; opacity: 1;}
 }
 .logo{
     display: flex;
@@ -89,6 +99,13 @@ nav button a{
     height: 500px;
    position: relative;
    left: 20px;
+   animation-name: content;
+    animation-duration: 1s;
+}
+@keyframes content{
+    from{
+        transform: translateY(150px);
+    }
 }
 .content1 h1{
     font-size: 70px;
@@ -160,6 +177,12 @@ nav button a{
     border-radius: 30px;
     position: relative;
     right: 20px;
+    animation-name: image;
+    animation-duration: 1s;
+}
+@keyframes image{
+    from {scale: .5; opacity: 0;}
+    to {scale: 1; opacity: 1;}
 }
 
 .imagewrapper1 img{
@@ -203,6 +226,10 @@ nav button a{
     color: white;
     padding: 85px 80px;
 }
+.web:hover{
+    background-color: blue;
+    transition: 1.5s;
+}
 .web h2{
     position: relative; 
     right: 55px;
@@ -211,12 +238,24 @@ nav button a{
     position: relative;
     background-color: white;
     padding: 85px 80px;
+    color: navy;
 }
+.ui:hover{
+    background-color: blue;
+    color: white;
+    transition: 1.5s;
+}
+
 .front{
     position: relative;
     background-color: navy;
     color: white;
     padding: 85px 50px;
+}
+.front:hover{
+    background-color: blue;
+    color: white;
+    transition: 1.5s;
 }
 
 /* section3 */
@@ -248,6 +287,7 @@ nav button a{
     top: 40px;
     color: navy;
 }
+
 .content3 p{
     font-size: 17px;
     margin-top: 50px;
@@ -343,9 +383,15 @@ nav button a{
     box-shadow: inset 3px 3px 3px #BFBFBF, inset -3px -3px -3px #BFBFBF;
     border-radius: 10px;
 }
+.processwrapper div:hover{
+    background-color: navy;
+    color: white;
+    transition: 1.5s;
+}
 .research i{
     background-color: navy;
     color: white;
+    border: 1px solid;
     padding: 15px;
     position: relative;
     top: 20px;
@@ -1499,8 +1545,9 @@ nav button a{
     }
     nav button{
         position: relative;
+        font-size: 10px;
         right: 30px;
-        width: 90px;
+        width: 70px;
         height: 30px;
         border: none;
         background-color: navy;
@@ -1656,18 +1703,18 @@ nav button a{
         position: relative;
         background-color: navy;
         color: white;
-        width: 100px;
+        width: 260px;
     }
     .ui{
         position: relative;
         background-color: white;
-        width: 100px;
+        width: 260px;
     }
     .front{
         position: relative;
         background-color: navy;
         color: white;
-        width: 160px;
+        width: 260px;
         font-size: 13px;
         height: 260px;
     }
@@ -2000,7 +2047,7 @@ nav button a{
     nav button{
         position: relative;
         right: 30px;
-        width: 90px;
+        width: 70px;
         height: 30px;
         border: none;
         background-color: navy;
@@ -2157,19 +2204,19 @@ nav button a{
         position: relative;
         background-color: navy;
         color: white;
-        width: 100px;
+        width: 250px;
     }
     .ui{
         position: relative;
         background-color: white;
-        width: 100px;
+        width: 250px;
     }
     .front{
         position: relative;
         background-color: navy;
         color: white;
-        width: 180px;
-        font-size: 15px;
+        width: 250px;
+        font-size: 13px;
         height: 260px;
     }
 
@@ -2507,7 +2554,8 @@ nav button a{
     nav button{
         position: relative;
         right: 30px;
-        width: 80px;
+        width: 60px;
+        font-size: 8px;
         height: 25px;
         border: none;
         background-color: navy;
@@ -2667,20 +2715,20 @@ nav button a{
         position: relative;
         background-color: navy;
         color: white;
-        width: 100px;
+        width: 200px;
         font-size: 13px;
     }
     .ui{
         position: relative;
         background-color: white;
-        width: 100px;
+        width: 200px;
         font-size: 13px;
     }
     .front{
         position: relative;
         background-color: navy;
         color: white;
-        width: 160px;
+        width: 200px;
         font-size: 13px;
         height: 260px;
     }
@@ -2719,6 +2767,7 @@ nav button a{
         width: 300px;
         color: navy;
     }
+   
     .content3 p{
         font-size: 12px;
         margin-top: 50px;
