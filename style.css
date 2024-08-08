@@ -220,15 +220,15 @@ nav button a{
     gap: 20px;
    
 }
+.service div:hover{
+        transition: 1s;
+        transform: translateY(-10px);
+}
 .web{
     position: relative;
     background-color: navy;
     color: white;
     padding: 85px 80px;
-}
-.web:hover{
-    background-color: blue;
-    transition: 1.5s;
 }
 .web h2{
     position: relative; 
@@ -240,22 +240,13 @@ nav button a{
     padding: 85px 80px;
     color: navy;
 }
-.ui:hover{
-    background-color: blue;
-    color: white;
-    transition: 1.5s;
-}
+
 
 .front{
     position: relative;
     background-color: navy;
     color: white;
     padding: 85px 50px;
-}
-.front:hover{
-    background-color: blue;
-    color: white;
-    transition: 1.5s;
 }
 
 /* section3 */
@@ -386,7 +377,8 @@ nav button a{
 .processwrapper div:hover{
     background-color: navy;
     color: white;
-    transition: 1.5s;
+    transition: 1s;
+    transform: translateY(-10px);
 }
 .research i{
     background-color: navy;
@@ -728,7 +720,10 @@ nav button a{
         align-items: center;
         gap: 20px;
         /* background-color: red; */
-       
+    }
+    .service div:hover{
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .web{
         position: relative;
@@ -877,6 +872,12 @@ nav button a{
         box-shadow: inset 3px 3px 3px #BFBFBF, inset -3px -3px -3px #BFBFBF;
         border-radius: 10px;
     }
+    .processwrapper div:hover{
+        background-color: navy;
+        color: white;
+        transition: 1s;
+        transform: translateY(-10px);
+    }
     .research i{
         background-color: navy;
         color: white;
@@ -1011,7 +1012,7 @@ nav button a{
     }
     .container6 button{
         position: relative;
-        left: 200px;
+        left: 180px;
         top: 50px;
         align-items: center;
         width: 200px;
@@ -1212,8 +1213,10 @@ nav button a{
         justify-content: center;
         align-items: center;
         gap: 20px;
-        /* background-color: red; */
-       
+    }
+    .service div:hover{
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .web{
         position: relative;
@@ -1361,6 +1364,12 @@ nav button a{
         background-color: white;
         box-shadow: inset 3px 3px 3px #BFBFBF, inset -3px -3px -3px #BFBFBF;
         border-radius: 10px;
+    }
+    .processwrapper div:hover{
+        background-color: navy;
+        color: white;
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .research i{
         background-color: navy;
@@ -1695,8 +1704,10 @@ nav button a{
         justify-content: center;
         align-items: center;
         gap: 20px;
-        /* background-color: red; */
-       
+    }
+    .service div:hover{
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .web{
         position: relative;
@@ -1844,6 +1855,12 @@ nav button a{
         background-color: white;
         box-shadow: inset 3px 3px 3px #BFBFBF, inset -3px -3px -3px #BFBFBF;
         border-radius: 10px;
+    }
+    .processwrapper div:hover{
+        background-color: navy;
+        color: white;
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .research i{
         background-color: navy;
@@ -2178,8 +2195,10 @@ nav button a{
         justify-content: center;
         align-items: center;
         gap: 20px;
-        /* background-color: red; */
-       
+    }
+    .service div:hover{
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .web{
         position: relative;
@@ -2327,6 +2346,12 @@ nav button a{
         background-color: white;
         box-shadow: inset 3px 3px 3px #BFBFBF, inset -3px -3px -3px #BFBFBF;
         border-radius: 10px;
+    }
+    .processwrapper div:hover{
+        background-color: navy;
+        color: white;
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .research i{
         background-color: navy;
@@ -2661,8 +2686,10 @@ nav button a{
         justify-content: center;
         align-items: center;
         gap: 20px;
-        /* background-color: red; */
-       
+    }
+    .service div:hover{
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .web{
         position: relative;
@@ -2810,6 +2837,12 @@ nav button a{
         background-color: white;
         box-shadow: inset 3px 3px 3px #BFBFBF, inset -3px -3px -3px #BFBFBF;
         border-radius: 10px;
+    }
+    .processwrapper div:hover{
+        background-color: navy;
+        color: white;
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .research i{
         background-color: navy;
@@ -3145,8 +3178,10 @@ nav button a{
         justify-content: center;
         align-items: center;
         gap: 20px;
-        /* background-color: red; */
-       
+    }
+    .service div:hover{
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .web{
         position: relative;
@@ -3297,6 +3332,12 @@ nav button a{
         box-shadow: inset 3px 3px 3px #BFBFBF, inset -3px -3px -3px #BFBFBF;
         border-radius: 10px;
     }
+    .processwrapper div:hover{
+        background-color: navy;
+        color: white;
+        transition: 1s;
+        transform: translateY(-10px);
+    }
     .research i{
         background-color: navy;
         color: white;
@@ -3432,7 +3473,7 @@ nav button a{
     }
     .container6 button{
         position: relative;
-        left: 8rem;
+        left: 9rem;
         top: 50px;
         align-items: center;
         width: 200px;
@@ -3634,8 +3675,10 @@ nav button a{
         justify-content: center;
         align-items: center;
         gap: 20px;
-        /* background-color: red; */
-       
+    }
+    .service div:hover{
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .web{
         position: relative;
@@ -3785,6 +3828,12 @@ nav button a{
         background-color: white;
         box-shadow: inset 3px 3px 3px #BFBFBF, inset -3px -3px -3px #BFBFBF;
         border-radius: 10px;
+    }
+    .processwrapper div:hover{
+        background-color: navy;
+        color: white;
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .research i{
         background-color: navy;
@@ -4122,8 +4171,10 @@ nav button a{
         justify-content: center;
         align-items: center;
         gap: 20px;
-        /* background-color: red; */
-       
+    }
+    .service div:hover{
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .web{
         position: relative;
@@ -4273,6 +4324,12 @@ nav button a{
         background-color: white;
         box-shadow: inset 3px 3px 3px #BFBFBF, inset -3px -3px -3px #BFBFBF;
         border-radius: 10px;
+    }
+    .processwrapper div:hover{
+        background-color: navy;
+        color: white;
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .research i{
         background-color: navy;
@@ -4617,8 +4674,10 @@ nav button a{
         align-items: center;
         gap: 20px;
         font-size: 13px;
-        /* background-color: red; */
-       
+    }
+    .service div:hover{
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .web{
         position: relative;
@@ -4769,6 +4828,12 @@ nav button a{
         background-color: white;
         box-shadow: inset 3px 3px 3px #BFBFBF, inset -3px -3px -3px #BFBFBF;
         border-radius: 10px;
+    }
+    .processwrapper div:hover{
+        background-color: navy;
+        color: white;
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .research i{
         background-color: navy;
@@ -5122,8 +5187,10 @@ nav button a{
         align-items: center;
         gap: 20px;
         font-size: 13px;
-        /* background-color: red; */
-       
+    }
+    .service div:hover{
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .web{
         position: relative;
@@ -5274,6 +5341,12 @@ nav button a{
         background-color: white;
         box-shadow: inset 3px 3px 3px #BFBFBF, inset -3px -3px -3px #BFBFBF;
         border-radius: 10px;
+    }
+    .processwrapper div:hover{
+        background-color: navy;
+        color: white;
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .research i{
         background-color: navy;
@@ -5627,8 +5700,10 @@ nav button a{
         align-items: center;
         gap: 20px;
         font-size: 13px;
-        /* background-color: red; */
-       
+    }
+    .service div:hover{
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .web{
         position: relative;
@@ -5779,6 +5854,12 @@ nav button a{
         background-color: white;
         box-shadow: inset 3px 3px 3px #BFBFBF, inset -3px -3px -3px #BFBFBF;
         border-radius: 10px;
+    }
+    .processwrapper div:hover{
+        background-color: navy;
+        color: white;
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .research i{
         background-color: navy;
@@ -6132,8 +6213,10 @@ nav button a{
         align-items: center;
         gap: 20px;
         font-size: 13px;
-        /* background-color: red; */
-       
+    }
+    .service div:hover{
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .web{
         position: relative;
@@ -6284,6 +6367,12 @@ nav button a{
         background-color: white;
         box-shadow: inset 3px 3px 3px #BFBFBF, inset -3px -3px -3px #BFBFBF;
         border-radius: 10px;
+    }
+    .processwrapper div:hover{
+        background-color: navy;
+        color: white;
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .research i{
         background-color: navy;
@@ -6635,8 +6724,10 @@ nav button a{
         justify-content: center;
         align-items: center;
         gap: 20px;
-        /* background-color: red; */
-       
+    }
+    .service div:hover{
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .web{
         position: relative;
@@ -6793,6 +6884,12 @@ nav button a{
         box-shadow: inset 3px 3px 3px #BFBFBF, inset -3px -3px -3px #BFBFBF;
         border-radius: 10px;
         margin-left: 20px;
+    }
+    .processwrapper div:hover{
+        background-color: navy;
+        color: white;
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .research i{
         background-color: navy;
@@ -7145,8 +7242,10 @@ nav button a{
         justify-content: center;
         align-items: center;
         gap: 20px;
-        /* background-color: red; */
-       
+    }
+    .service div:hover{
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .web{
         position: relative;
@@ -7303,6 +7402,12 @@ nav button a{
         box-shadow: inset 3px 3px 3px #BFBFBF, inset -3px -3px -3px #BFBFBF;
         border-radius: 10px;
         margin-left: 20px;
+    }
+    .processwrapper div:hover{
+        background-color: navy;
+        color: white;
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .research i{
         background-color: navy;
@@ -7655,8 +7760,10 @@ nav button a{
         justify-content: center;
         align-items: center;
         gap: 20px;
-        /* background-color: red; */
-       
+    }
+    .service div:hover{
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .web{
         position: relative;
@@ -7813,6 +7920,12 @@ nav button a{
         box-shadow: inset 3px 3px 3px #BFBFBF, inset -3px -3px -3px #BFBFBF;
         border-radius: 10px;
         margin-left: 20px;
+    }
+    .processwrapper div:hover{
+        background-color: navy;
+        color: white;
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .research i{
         background-color: navy;
@@ -8164,8 +8277,10 @@ nav button a{
         justify-content: center;
         align-items: center;
         gap: 20px;
-        /* background-color: red; */
-       
+    }
+    .service div:hover{
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .web{
         position: relative;
@@ -8322,6 +8437,12 @@ nav button a{
         box-shadow: inset 3px 3px 3px #BFBFBF, inset -3px -3px -3px #BFBFBF;
         border-radius: 10px;
         margin-left: 20px;
+    }
+    .processwrapper div:hover{
+        background-color: navy;
+        color: white;
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .research i{
         background-color: navy;
@@ -8672,8 +8793,10 @@ nav button a{
         justify-content: center;
         align-items: center;
         gap: 20px;
-        /* background-color: red; */
-       
+    }
+    .service div:hover{
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .web{
         position: relative;
@@ -8830,6 +8953,12 @@ nav button a{
         box-shadow: inset 3px 3px 3px #BFBFBF, inset -3px -3px -3px #BFBFBF;
         border-radius: 10px;
         margin-left: 20px;
+    }
+    .processwrapper div:hover{
+        background-color: navy;
+        color: white;
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .research i{
         background-color: navy;
@@ -9179,8 +9308,10 @@ nav button a{
         justify-content: center;
         align-items: center;
         gap: 20px;
-        /* background-color: red; */
-       
+    }
+    .service div:hover{
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .web{
         position: relative;
@@ -9337,6 +9468,12 @@ nav button a{
         box-shadow: inset 3px 3px 3px #BFBFBF, inset -3px -3px -3px #BFBFBF;
         border-radius: 10px;
         margin-left: 20px;
+    }
+    .processwrapper div:hover{
+        background-color: navy;
+        color: white;
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .research i{
         background-color: navy;
@@ -9690,8 +9827,10 @@ nav button a{
         gap: 20px;
         right: 20px;
         width: 200px;
-        /* background-color: red; */
-       
+    }
+    .service div:hover{
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .web{
         position: relative;
@@ -9856,6 +9995,12 @@ nav button a{
         box-shadow: inset 3px 3px 3px #BFBFBF, inset -3px -3px -3px #BFBFBF;
         border-radius: 10px;
         margin-left: 20px;
+    }
+    .processwrapper div:hover{
+        background-color: navy;
+        color: white;
+        transition: 1s;
+        transform: translateY(-10px);
     }
     .research i{
         background-color: navy;
